@@ -1,0 +1,193 @@
+body {
+  font-family: "Dancing Script", "cursive", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.hero-banner {
+  height: 800px;
+  width: 100%;
+  background-image: url(images/W1.jpg);
+  background-position: center;
+  background-size: cover;
+  /* position: relative; */
+  margin-top: -190px;
+}
+
+.hero-content {
+  position: relative;
+  top: 600px;
+  text-align: center;
+}
+
+.hero-banner h1 {
+  font-size: 4rem;
+  color: white;
+}
+.nav-bar {
+  margin: 1rem 0;
+  /* position: absolute */
+}
+.nav-bar ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  margin: 1rem auto;
+  padding: 0;
+}
+
+.nav-bar li {
+  padding: 0 4.5rem;
+}
+.nav-bar a {
+  text-decoration: none;
+  font-size: 1.5rem;
+  color: white;
+  font-weight: bold;
+}
+
+.nav-bar a:hover {
+  color: rgb(125, 125, 125);
+}
+.site-name {
+  margin: 8rem auto 5rem auto;
+  width: 70%;
+  text-align: center;
+  display: flex;
+  justify-content: space-evenly;
+  padding: 1rem;
+  border: 2px ridge rgb(225, 225, 225);
+  border-radius: 3px;
+  background-color: rgba(80, 79, 80, 0.21);
+  /* position: absolute */
+}
+
+.site-name .site-name-link {
+  text-decoration: none;
+  font-family: inherit;
+  font-size: 2rem;
+  color: white;
+  font-weight: bold;
+}
+
+.site-name a img {
+  width: 3rem;
+  height: 3rem;
+}
+
+.story-side {
+  padding: 2rem;
+  font-size: 1.5rem;
+}
+.story-content {
+  text-align: center;
+}
+.story-photo {
+  width: 80%;
+  height: 30rem;
+  display: flex;
+  margin: 0 auto;
+}
+
+.story-photo img {
+  width: 400px;
+  height: 500x;
+  margin: 1rem;
+  object-fit: contain;
+}
+
+.owner {
+  padding: 3rem;
+  background-color: rgb(214, 214, 214);
+}
+.owner-content {
+  width: 80%;
+  display: flex;
+  margin: 0 auto;
+}
+
+.owner-content img {
+  width: 500px;
+  height: 550px;
+}
+
+.owner p {
+  padding: 3rem;
+  position: relative;
+  font-size: 1.5rem;
+  margin: 8rem auto;
+}
+
+.price {
+  padding: 2rem;
+  font-size: 1.5rem;
+}
+
+.price-content {
+  text-align: center;
+}
+
+.price-photo {
+  width: 80%;
+  display: flex;
+  margin: 0 auto;
+}
+
+.price-photo img {
+  width: 400px;
+  height: 350px;
+  margin: 0.5rem;
+  object-fit: cover;
+}
+
+.price-details {
+  display: flex;
+  justify-content: space-evenly;
+}
+.price-amount {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 0 auto;
+}
+.price-des {
+  text-align: center;
+  margin: 3rem auto;
+}
+
+.price-des a {
+  text-decoration: none;
+  padding: 1rem 3rem;
+  color: white;
+  background-color: antiquewhite;
+  border: 1px solid transparent;
+  border-radius: 5px;
+}
+
+.price-des a:hover {
+  color: rgb(125, 125, 125);
+}
+
+.footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+  height: 25rem;
+  background-color: rgb(214, 214, 214);
+}
+
+.footer p {
+  font-size: 1.2rem;
+  font-weight: bold;
+  text-align: center;
+}
+
+.footer a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.footer img {
+  width: 3rem;
+  height: 3rem;
+}
